@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function print_this(phone_number){
+            document.querySelector('#print_here').textContent = phone_number.replace(/[^0-9]*/g, '');
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="tel" id="phone_number" name="phone_number" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+        <input type="button" onclick="print_this(phone_number.value)" value="Submit">
+    </form>
+    <p id="print_here"></p>
+</body>
+</html>

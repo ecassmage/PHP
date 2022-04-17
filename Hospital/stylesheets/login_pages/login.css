@@ -1,0 +1,12 @@
+.login th, .login td{
+    font-size: 25px;
+    padding: 5px 15px;
+}
+
+.login input{
+    font-size: 25px;
+}
+
+.invisible{
+    opacity: 0;
+}

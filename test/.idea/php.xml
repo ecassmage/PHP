@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter id="7e872c3e-99a2-4e6b-b188-7b2e444282d5" name="root@localhost:3306 password" home="sshConfig://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" SSH_CONFIG_ID="a3f0540e-4302-4888-b4de-57dd6ba5fd2e" SSH_CONFIG_NAME="root@localhost:3306 password" SSH_CREDENTIALS_ID="sshConfig://root@localhost:3306 password" />
+      </interpreter>
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+</project>
